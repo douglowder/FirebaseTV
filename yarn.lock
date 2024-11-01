@@ -1860,6 +1860,11 @@
     prompts "^2.4.2"
     semver "^7.5.2"
 
+"@react-native-firebase/analytics@^21.3.0":
+  version "21.3.0"
+  resolved "https://registry.yarnpkg.com/@react-native-firebase/analytics/-/analytics-21.3.0.tgz#1adee6074e72933bf3f0bdf9a73c0638f064e85d"
+  integrity sha512-AIHozf0U+vmnWSx6WnIrBF3UlhDCQv/i1YGvNHfQx6BoKAPT8USJBrbU6e4nXUErrrcvZdB/SN6yZ7j55skZZA==
+
 "@react-native-firebase/app@^21.3.0":
   version "21.3.0"
   resolved "https://registry.yarnpkg.com/@react-native-firebase/app/-/app-21.3.0.tgz#0dce61af8bf9bcb17085e6000c0683990c493072"
