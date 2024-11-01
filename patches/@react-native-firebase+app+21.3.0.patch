@@ -1,0 +1,12 @@
+diff --git a/node_modules/@react-native-firebase/app/RNFBApp.podspec b/node_modules/@react-native-firebase/app/RNFBApp.podspec
+index 725c0a0..8fc67cd 100644
+--- a/node_modules/@react-native-firebase/app/RNFBApp.podspec
++++ b/node_modules/@react-native-firebase/app/RNFBApp.podspec
+@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
+   s.source              = { :git => "https://github.com/invertase/react-native-firebase.git", :tag => "v#{s.version}" }
+   s.social_media_url    = 'http://twitter.com/invertaseio'
+   s.ios.deployment_target = firebase_ios_target
++  s.tvos.deployment_target = firebase_ios_target
+   s.macos.deployment_target = firebase_macos_target
+   s.cocoapods_version   = '>= 1.12.0'
+   s.source_files        = "ios/**/*.{h,m}"
