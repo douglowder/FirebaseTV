@@ -15,6 +15,31 @@
             "topShelfWide2x": "./assets/images/icon-4640x1440.png"
           }
         }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "extraPods": [
+              {
+                "name": "Firebase",
+                "modular_headers": true
+              },
+              {
+                "name": "FirebaseCoreInternal",
+                "modular_headers": true
+              },
+              {
+                "name": "FirebaseCore",
+                "modular_headers": true
+              },
+              {
+                "name": "GoogleUtilities",
+                "modular_headers": true
+              }
+            ]
+          }
+        }
       ]
     ],
     "name": "FirebaseTest",
