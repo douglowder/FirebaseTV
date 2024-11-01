@@ -1,5 +1,5 @@
 {
-  "name": "firebasetest",
+  "name": "firebasetv",
   "version": "1.0.0",
   "scripts": {
     "postinstall": "patch-package",
